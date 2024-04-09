@@ -1,4 +1,4 @@
 
 AARCH64:
 -------
-sudo pacma -S qemu-user qemu-user-static aarch64-linux-gnu-binutils
+sudo pacman -S qemu-user qemu-user-static aarch64-linux-gnu-binutils aarch64-linux-gnu-gdb
