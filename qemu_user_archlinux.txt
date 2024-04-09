@@ -1,4 +1,7 @@
 
 AARCH64:
 -------
-sudo pacman -S qemu-user qemu-user-static aarch64-linux-gnu-binutils aarch64-linux-gnu-gdb
+sudo pacman -S qemu-user qemu-user-static aarch64-linux-gnu-binutils aarch64-linux-gnu-gdb aarch64-linux-gnu-gcc
+
+COMPILE:
+aarch64-linux-gnu-gcc -static -o main64 main.c
