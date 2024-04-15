@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main(void) { 
-    return printf("Hello, I'm executing ARM64 instructions!\n"); 
+    return printf("Hello, I'm executing ARM32 instructions!\n"); 
 }

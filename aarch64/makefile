@@ -1,7 +1,7 @@
 
 ASSEMBLER := aarch64-linux-gnu-as
 LINKER := aarch64-linux-gnu-ld
-GDB := aarch64-linux-gnu-gdb
+GDB := gdb-multiarch
 CC := aarch64-linux-gnu-gcc
 QEMU := qemu-aarch64 
 SOURCE_NAME ?= main
